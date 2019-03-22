@@ -10,4 +10,7 @@ setup(
   download_url = 'https://github.com/ianling/opentdb-python/archive/1.0.tar.gz',
   keywords = ['opentdb', 'trivia', 'api', 'client'],
   classifiers = [],
+  install_requires=[
+          'HTMLParser',
+      ],
 )
